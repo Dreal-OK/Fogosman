@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 90%;
+  margin: auto;
+  padding: 1rem;
+  line-height: 1.5;
+}
+
+.sub-heading {
+  color:#8a0202;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.container ul {
+  margin-left: 1rem;
+}
+
+.container ul li {
+  margin: 1rem 0;
+}
+
+.footnote {
+  list-style: none;
+  margin: .5rem 0;
+  border-bottom: 1px dotted #000;
+  text-align: left;
+}
+
