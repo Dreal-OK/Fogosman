@@ -47,5 +47,8 @@ a {
 
   .footer .tel, .footer .contact, .useful-links {
     text-align: left;
+    min-width: 100%;
+    border-bottom: 2px dotted #ccc;
   }
 }
+

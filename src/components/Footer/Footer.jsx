@@ -27,7 +27,23 @@ export default function Footer() {
             <a href="mailto:fohcogsman@gmail.com">fohcogsman@gmail.com</a>
             <a href="mailto:fohcogsman@yahoo.com">fohcogsman@yahoo.com</a>
           </Grid>
-          <Grid item sm={12} md={4} className="useful-links">
+          <Grid item sm={6} md={4} className="tel">
+            <Typography variant="h5" className="sub-heading">
+              <i class="fas fa-phone"></i>
+            </Typography>
+            <ul>
+              <li>
+                <a href="tel:08050816414">08050816414</a>
+              </li>
+              <li>
+                <a href="tel:08165413653">08165413653</a>
+              </li>
+              <li>
+                <a href="tel:07017393921">07017393921</a>
+              </li>
+            </ul>
+          </Grid>
+          <Grid item sm={6} md={4} className="useful-links">
             <Typography variant="h5" className="sub-heading">
               <i class="fas fa-link"></i>
             </Typography>
@@ -45,14 +61,6 @@ export default function Footer() {
                 <NavLink to="/board">Boards</NavLink>
               </li>
             </ul>
-          </Grid>
-          <Grid item sm={12} md={4} className="tel">
-            <Typography variant="h5" className="sub-heading">
-              <i class="fas fa-phone"></i>
-            </Typography>
-            <a href="tel:08050816414">08050816414</a>
-            <a href="tel:08165413653">08165413653</a>
-            <a href="tel:07017393921">07017393921</a>
           </Grid>
         </Grid>
       </div>

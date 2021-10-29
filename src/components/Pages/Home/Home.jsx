@@ -10,15 +10,14 @@ export default function Home() {
       <div className="container">
         <div className="img-div">
           <img src={homeImage} alt="home logo" className="home-image" />
-          <div className="details">
-            <Typography className="details-title" variant="h4">
+         
+            <Typography className="details details-title" variant="h5">
               ELDER
             </Typography>
-            <Typography className="details-name" variant="h3">
+            <Typography className="details details-name" variant="h4">
               ISAAC AKPOWENE
               <br /> EGBI, (JP)
             </Typography>
-          </div>
         </div>
         <div className="caption">
           <Typography variant="h6" className="caption-text">

@@ -13,11 +13,9 @@ export default function BasicTable() {
       <Table sx={{ minWidth: 650 }} aria-label="simple table">
         <TableHead>
           <TableRow>
-            <TableCell className="tableHeaderCell">Info</TableCell>
-            <TableCell className="tableHeaderCell">Address</TableCell>
-            <TableCell className="tableHeaderCell">Occupation</TableCell>
-            {/* <TableCell className="tableHeaderCell" >Phone</TableCell>
-            <TableCell className="tableHeaderCell" >Email</TableCell> */}
+            <TableCell style={{color: 'red'}} className="tableHeaderCell">Info</TableCell>
+            <TableCell style={{color: 'red'}} className="tableHeaderCell">Address</TableCell>
+            <TableCell style={{color: 'red'}} className="tableHeaderCell">Occupation</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
@@ -33,8 +31,7 @@ export default function BasicTable() {
               </TableCell>
               <TableCell><Typography color="textSecondary" variant="body2">{bot.address}</Typography></TableCell>
               <TableCell><Typography color="textSecondary" variant="body2">{bot.occupation}</Typography></TableCell>
-              {/* <TableCell >{bot.phone}</TableCell>
-              <TableCell >{bot.email}</TableCell> */}
+    
             </TableRow>
           ))}
         </TableBody>

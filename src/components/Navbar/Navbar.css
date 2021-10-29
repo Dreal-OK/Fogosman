@@ -106,6 +106,15 @@
     z-index: 1;
   }
 
+  @media screen and (max-width: 768px) {
+    .nav-logo {
+      margin-left: 0;
+    }
+    .nav-logo .logo {
+      width: 250px;
+    }
+  }
+
   .nav-link {
     padding: 1rem;
     width: 100%;
