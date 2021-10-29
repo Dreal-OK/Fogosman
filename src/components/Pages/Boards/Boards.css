@@ -1,0 +1,27 @@
+.tableContainer {
+  border-radius: 15px;
+  margin: 18px 10px;
+  max-width: 95%;
+
+}
+
+.tableHeaderCell {
+  font-weight: bold;
+  background: #8a0202;
+  color: #c7c7c7;
+}
+
+.trusteeInfo {
+  margin: .8rem 0;
+}
+
+.trusteeInfo.name {
+  color: #8a0202;
+}
+
+@media screen and (min-width: 768px) {
+  .tableContainer {
+    max-width: 70%;
+    margin: 2rem auto;
+  }
+}

@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './Navbar.css'
 import { NavLink } from 'react-router-dom'
+import logo from '../../uploads/logo.png';
 
 
 
@@ -16,7 +17,7 @@ export default function Navbar() {
     <div className="navBar">
       <div className="nav-container">
         <NavLink exact to="/" className="nav-logo">
-          FOHCOGSMAN
+            <img className="logo" alt="logo" src={logo} />
         </NavLink>
 
         <ul className={menu ? "nav-menu active" : "nav-menu"}>
@@ -62,28 +63,6 @@ export default function Navbar() {
               onClick={handleClick}
             >
               Objectives
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink
-              exact
-              to="/events"
-              activeClassName="active"
-              className="nav-link"
-              onClick={handleClick}
-            >
-              Events
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink
-              exact
-              to="/contact"
-              activeClassName="active"
-              className="nav-link"
-              onClick={handleClick}
-            >
-              Contact Us
             </NavLink>
           </li>
         </ul>

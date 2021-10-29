@@ -1,0 +1,44 @@
+.footer {
+  max-width: 100%;
+  text-align: center;
+    background: #8a0202;
+    color: #fff;
+}
+
+a {
+  text-decoration: none; 
+  color: inherit;
+}
+
+
+.tel, .contact {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.contact {
+  text-align: left;
+  grid-gap: .5rem;
+}
+
+.footer .heading {
+  font-size: 2rem;
+  color: rgb(241, 98, 98);
+}
+
+.footer .sub-heading {
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+  font-size: 2rem;
+  color: rgb(241, 98, 98);
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    text-align: left;
+  }
+
+  .footer .tel, .footer .contact, .useful-links {
+    text-align: left;
+  }
+}

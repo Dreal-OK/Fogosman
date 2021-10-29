@@ -1,5 +1,5 @@
 .navBar {
-  background: transparent;
+  background: #fff;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -21,14 +21,20 @@
 
 .nav-logo {
   color: #8a0202;
-  align-items: center;
+  align-items: left;
   margin-left: 20px;
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
   flex-grow: 1;
+  padding: 0;
 }
 
+
+
+.nav-logo .logo {
+  width: 350px
+}
 .nav-menu {
   display: flex;
   list-style: none;

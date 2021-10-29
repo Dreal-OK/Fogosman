@@ -8,6 +8,7 @@ import Objectives from "./components/Pages/Objectives/Objectives";
 import Contact from "./components/Pages/Contact/Contact";
 import Boards from "./components/Pages/Boards/Boards";
 import './App.css';
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/contact" component={Contact} />
           <Route path='/board' component={Boards} />
         </Switch>
+        <Footer />
       </Router>
     </>
   );
