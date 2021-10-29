@@ -9,7 +9,7 @@ export default function Home() {
     <div className="home">
       <div className="container">
         <div className="img-div">
-          <img src={homeImage} className="home-image" />
+          <img src={homeImage} alt="home logo" className="home-image" />
           <div className="details">
             <Typography className="details-title" variant="h4">
               ELDER
