@@ -9,12 +9,18 @@
   margin: auto;
   padding: 1rem;
   line-height: 1.5;
+
+}
+
+.container p {
+  text-align: left;
+  line-height: 2;
 }
 
 .sub-heading {
   color:#8a0202;
   margin: 1rem 0;
-  /* text-align: center; */
+  text-align: left;
 }
 
 .container ul {
@@ -22,7 +28,8 @@
 }
 
 .container ul li {
-  margin: 1rem 0;
+  margin: 1.5rem 0;
+  text-align: left;
 }
 
 .footnote {

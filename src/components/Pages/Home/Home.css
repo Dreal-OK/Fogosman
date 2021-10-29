@@ -13,7 +13,7 @@
   display: block;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, .60);
+  background-color: rgba(0, 0, 0, .850);
   position: absolute;
   top: 0;
   left: 0;
@@ -27,7 +27,7 @@
 
 
 .home .container {
-  max-width: 100%;
+  max-width: 80%;
   min-height: 100%;
   display: flex;
   justify-content: space-evenly;
@@ -52,7 +52,7 @@
 .img-div .home-image {
   display: block;
   margin: auto;
-  width: 100%;
+  width: 90%;
   transform: translateX(-8%);
   opacity: .9;
 
@@ -73,7 +73,7 @@
 
 
 .caption-text {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .caption .more-button {
@@ -82,7 +82,7 @@
   color: #fff;
   border: 1px solid#8a0202;
   transition: opacity 1s ease;
-  width: 100px;
+  width: 150px;
   margin: 2rem auto;
   border-radius: 5px;
 }
