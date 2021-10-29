@@ -5,6 +5,13 @@
     color: #fff;
 }
 
+.footer .contaier {
+  padding: 2rem;
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+}
+
 a {
   text-decoration: none; 
   color: inherit;
@@ -18,7 +25,7 @@ a {
 
 .contact {
   text-align: left;
-  grid-gap: .5rem;
+  /* grid-gap: .5rem; */
 }
 
 .footer .heading {
