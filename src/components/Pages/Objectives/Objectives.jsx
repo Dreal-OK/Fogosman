@@ -1,19 +1,25 @@
 import { Paper, Typography } from '@mui/material'
-import React from 'react'
+import React, { useEffect } from 'react'
 import road from '../../../uploads/objectives/road.PNG';
 import widows from '../../../uploads/objectives/widows.PNG'
 import youth from '../../../uploads/objectives/youth.PNG'
 import government from '../../../uploads/objectives/government.PNG'
 import pipeline from '../../../uploads/objectives/pipeline.PNG'
 import './Objectives.css';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 export default function Objectives() {
+
+  useEffect(() => {
+    Aos.init({ duration: 2000 , once: true})
+  }, []);
   return (
     <div className="container">
       <Typography variant="h3" className="objective">
         OBJECTIVES
       </Typography>
-      <Paper elevation={2} className="sub-objective">
+      <Paper elevation={2} className="sub-objective" data-aos="fade-up">
         <Typography variant="h4" className="objective-heading">
           PREVENTION OF PIPELINE VANDALISATION{" "}
         </Typography>
@@ -31,7 +37,7 @@ export default function Objectives() {
           <img className="objective-img" src={pipeline} alt="pipeline" />
         </div>
       </Paper>
-      <Paper elevation={2} className="sub-objective">
+      <Paper elevation={2} className="sub-objective" data-aos="fade-up">
         <Typography variant="h4" className="objective-heading">
           HELPING THE WIDOWS
         </Typography>
@@ -60,7 +66,7 @@ export default function Objectives() {
           <img className="objective-img" src={youth} alt="some youth" />
         </div>
       </Paper>
-      <Paper elevation={2} className="sub-objective">
+      <Paper elevation={2} className="sub-objective" data-aos="fade-up">
         <Typography variant="h4" className="objective-heading">
           PROTECTION OF GOVERNMENT FACILITIES
         </Typography>
@@ -75,7 +81,7 @@ export default function Objectives() {
           <img className="objective-img" src={government} alt="government workers" />
         </div>
       </Paper>
-      <Paper elevation={2} className="sub-objective">
+      <Paper elevation={2} className="sub-objective" data-aos="fade-up">
         <Typography variant="h4" className="objective-heading">
           GOOD ROAD NETWORK
         </Typography>

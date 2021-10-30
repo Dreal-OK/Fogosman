@@ -10,7 +10,11 @@ import Boards from "./components/Pages/Boards/Boards";
 import './App.css';
 import Footer from "./components/Footer/Footer";
 
+
 function App() {
+
+
+
   return (
     <>
       <Router>

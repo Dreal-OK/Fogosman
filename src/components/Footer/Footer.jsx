@@ -1,15 +1,23 @@
 import { Grid, Typography } from "@mui/material";
-import React from "react";
+import React, { useEffect } from "react";
 import { NavLink } from "react-router-dom";
-
 import "./Footer.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 export default function Footer() {
+
+
+  useEffect(() => {
+    Aos.init({duration: 2000})
+  }, [])
+
+
   return (
     <div className="footer">
       <div className="container">
         <Grid container>
-          <Grid item sm={12} md={4} className="contact">
+          <Grid item sm={12} md={4} className="contact grid-item" data-aos="fade-right">
             <Typography variant="h5" className="heading">
               Contact Us
             </Typography>
@@ -27,11 +35,11 @@ export default function Footer() {
             <a href="mailto:fohcogsman@gmail.com">fohcogsman@gmail.com</a>
             <a href="mailto:fohcogsman@yahoo.com">fohcogsman@yahoo.com</a>
           </Grid>
-          <Grid item sm={6} md={4} className="tel">
+          <Grid item sm={6} md={4} className="tel grid-item">
             <Typography variant="h5" className="sub-heading">
-              <i class="fas fa-phone"></i>
+              <i class="fas fa-phone" data-aos="fade-up"></i>
             </Typography>
-            <ul>
+            <ul data-aos="fade-up">
               <li>
                 <a href="tel:08050816414">08050816414</a>
               </li>
@@ -43,7 +51,7 @@ export default function Footer() {
               </li>
             </ul>
           </Grid>
-          <Grid item sm={6} md={4} className="useful-links">
+          <Grid item sm={6} md={4} className="useful-links grid-item" data-aos="fade-up">
             <Typography variant="h5" className="sub-heading">
               <i class="fas fa-link"></i>
             </Typography>

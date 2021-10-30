@@ -27,6 +27,10 @@ a {
   grid-template-columns: 1fr;
 }
 
+.grid-item {
+  text-align: center;
+}
+
 .contact {
   text-align: left;
   /* grid-gap: .5rem; */
@@ -53,6 +57,7 @@ a {
     text-align: left;
     min-width: 100%;
     border-bottom: 2px dotted #ccc;
+    padding: 1rem;
   }
 }
 

@@ -1,13 +1,20 @@
 import { Paper, Typography } from '@mui/material';
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Bio.css';
+import Aos from 'aos';
+import 'aos/dist/aos.css'
+
 
 export default function Bio() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 })
+  }, []);
+
   return (
     <Paper elevation={2} className="container">
-      <h2 className="sub-heading">BI0GRAPHY</h2>
+      <h2 className="sub-heading" data-aos="fade-right">BI0GRAPHY</h2>
       <div>
-        <p>
+        <p data-aos="fade-up">
           Elder (Chief) Isaac Akpowene Egbi (JP) was born on 5th January, 1962
           in Egbi Compound, Arhagba Town, Oghievwen Clan Ugheli South LGA, Delta
           State Nigeria. He is the founder of Elder (Chief) Isaac AkpoweneEgbi
@@ -23,8 +30,8 @@ export default function Bio() {
           AKPOWENE EGBI has traveled to different parts of the world and this
           makes him very knowledgeable in different areas of life.
         </p>
-        <h2 className="sub-heading">CORE COMPENTENCE</h2>
-        <ul>
+        <h2 className="sub-heading" data-aos="fade-right">CORE COMPENTENCE</h2>
+        <ul data-aos="fade-up">
           <li>Strong Administrative skill</li>
           <li> Efficient Analytical skill</li>
           <li>Oratory Skills</li>
@@ -34,13 +41,13 @@ export default function Bio() {
           <li>Logistics and procurement</li> <li>Data Analysis</li>
           <li>Attention to Details</li>
         </ul>
-        <h2 className="sub-heading">STRENGTH</h2>
-        <p>
+        <h2 className="sub-heading" data-aos="fade-right">STRENGTH</h2>
+        <p data-aos="fade-up">
           Over Six years experience in process/production Operations and
           Hands-on Community Relations Management.
         </p>
-        <h2 className="sub-heading">SOCIAL AND PUBLIC EXPERIENCE</h2>
-        <ul>
+        <h2 className="sub-heading" data-aos="fade-right">SOCIAL AND PUBLIC EXPERIENCE</h2>
+        <ul data-aos="fade-up">
           <li>TRADITIONAL CHIEFTAINCY CONFERMENT 17/12/2011</li>{" "}
           <li>JUSTICE OF PEACE OF THE DELTA STATE (JP 723)</li>{" "}
           <li>
@@ -69,7 +76,7 @@ export default function Bio() {
           INVESTMENTS MULTI -PURPOSE COOPERATIVE SOCIETY</li> <li>FOUNDER/PRESIDENT,
           BUHARI MUST WIN (BMW) INITIATIVE AND SENSITIZATION</li> 
         </ul>
-          <Typography variant="h5" className="footnote"><em>Elder (Chief)
+          <Typography variant="h5" className="footnote" data-aos="fade-up"><em>Elder (Chief)
           Isaac AkpoweneEgbi (JP) FONDER/PRESIDENT (FOHCOGSMAN) is the best
           Candidate to hold the post of Commissioner of Niger Delta Development
           Commission (NDDC)</em></Typography>
