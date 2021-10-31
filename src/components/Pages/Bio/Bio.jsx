@@ -17,7 +17,7 @@ export default function Bio() {
         <p data-aos="fade-up">
           Elder (Chief) Isaac Akpowene Egbi (JP) was born on 5th January, 1962
           in Egbi Compound, Arhagba Town, Oghievwen Clan Ugheli South LGA, Delta
-          State Nigeria. He is the founder of Elder (Chief) Isaac AkpoweneEgbi
+          State Nigeria. Elder (Chief) Isaac AkpoweneEgbi
           (JP) is the president/founder of FEDERATED ORGANANIZATION OF HOST
           COMMUNITIES OF OIL AND GAS, SOLID MINERALS AND ASSETS OF NIGERIA
           (FOHCOGSMAN). A humanitarian organization aimed at assisting all

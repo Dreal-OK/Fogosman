@@ -12,7 +12,7 @@ import 'aos/dist/aos.css';
 export default function Objectives() {
 
   useEffect(() => {
-    Aos.init({ duration: 2000 })
+    Aos.init({ duration: 2000})
   }, []);
   return (
     <div className="container">
